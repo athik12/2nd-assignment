@@ -1,0 +1,20 @@
+/* -----match-tem----- */
+.match-tem{
+    border: 2px solid rgb(24, 20, 20);
+    padding: 20px;
+    border-radius: 10px;
+    gap: 20px;
+    
+}
+/* -----tem-img---- */
+.tem-img{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+/* -----time-name----- */
+.time-name{
+   align-items: center;
+   padding:10px ;
+   margin-top: 20px;
+}
