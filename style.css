@@ -150,3 +150,14 @@ h1{
     margin: 5px;
     padding: 0 35px;
 }
+/* --------responsive-Mobail Divase------ */
+@media only screen and (max-width:668) {
+    .Container{
+        width: 100%;
+        height: 500px;
+    }
+    .header-text, .main-body, .body-cullom, .product-display, .match{
+       grid-template-columns: repeat(1,1fr);
+       flex-direction: column;
+    }
+}
